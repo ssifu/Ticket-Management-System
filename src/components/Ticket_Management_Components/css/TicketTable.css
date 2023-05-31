@@ -1,0 +1,194 @@
+.new-ticket {
+  align-self: flex-end;
+}
+
+.add-new-btn:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.ticket-table {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* place-items: center; */
+  text-align: center;
+  row-gap: 0;
+  transition: all 0.5s;
+}
+
+.row:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.type,
+.description,
+.action {
+  border-bottom: 1px solid grey;
+  min-width: 200px;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type,
+.description {
+  border-right: 1px solid grey;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* place-items: center; */
+  text-align: center;
+  row-gap: 0;
+  background-color: #737ccf;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #2218a7;
+}
+
+.header:hover {
+  box-shadow: 0;
+  transform: scale(1);
+}
+
+/* Pagination style */
+
+.pagination {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.5s;
+}
+
+.pagination > .pagination__numbers {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #737ccf;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.pagination > .pagination__numbers:hover {
+  background-color: #2218a7;
+  color: #fff;
+}
+
+.pagination .pagination__numbers {
+  padding: 0.5rem 1rem;
+  transition: all 0.5s;
+}
+
+.pagination .next,
+.pagination .prev {
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #2218a7;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.pagination .next:hover,
+.pagination .prev:hover {
+  background-color: #737ccf;
+}
+
+.pagination .pagination__selected {
+  background-color: #2218a7;
+  transition: all 0.5s;
+}
+
+/* Action Button Styles */
+.action-button__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.action-button__container .changeColorEdit {
+  width: 100%;
+  height: auto;
+  border: 0;
+  background-color: inherit;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.action-button__container .changeColorEdit {
+  color: green;
+}
+
+.action-button__container .changeColorEdit:hover {
+  color: white;
+  background-color: green;
+}
+
+.action-button__container .changeColorEdit {
+  width: 100%;
+  height: auto;
+  border: 0;
+  background-color: inherit;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.action-button__container .changeColorEdit {
+  color: green;
+}
+
+.action-button__container .changeColorEdit:hover {
+  color: white;
+  background-color: green;
+}
+
+.action-button__container .changeColorDelete {
+  width: 100%;
+  height: auto;
+  border: 0;
+  background-color: inherit;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.action-button__container .changeColorDelete {
+  color: #f44336;
+}
+
+.action-button__container .changeColorDelete:hover {
+  color: white;
+  background-color: #f44336;
+}

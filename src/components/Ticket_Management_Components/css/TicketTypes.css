@@ -1,0 +1,13 @@
+.right-content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.ticket-types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 2rem;
+}

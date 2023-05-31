@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #737ccf;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.navbar-img {
+  position: relative;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+.navbar-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-img p {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  background-color: #2218a7;
+  padding: 0.05rem 0.5rem;
+  border-radius: 10rem;
+}
